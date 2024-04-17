@@ -23,9 +23,9 @@ const weapons = [
     { name: "sword", power: 100 }
 ];
 const monsters = [
-  { name: "slime", level: 2, health: 15 },
-  { name: "fanged beast", level: 8, health: 60 },
-  { name: "dragon", level: 20, health: 300 }
+  { name: "slime", level: 2, health: 15, HP: 1000 },
+  { name: "fanged beast", level: 8, health: 60, HP: 2000 },
+  { name: "dragon", level: 20, health: 300 ,HP: 2000 }
 ]
 
 const locations = [
